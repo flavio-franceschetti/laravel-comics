@@ -1,0 +1,9 @@
+@mixin container90 {
+    width: 75%;
+    margin: 0 auto;
+}
+
+@mixin activeNavElement {
+    color: #0382f9;
+    box-shadow: inset 0 -5px 0px #0382f9;
+}

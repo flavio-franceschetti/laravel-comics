@@ -1,11 +1,14 @@
 @use "./mixins" as *;
 @use "./variables" as *;
 
-.container {
+.container.second-f {
     display: flex;
     justify-content: space-between;
     @include container90;
     padding: 50px 0;
+}
+.second-footer {
+    background-color: hsl(0deg 0% 18.82%);
 }
 
 .singup-btn {

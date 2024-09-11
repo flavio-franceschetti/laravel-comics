@@ -1,6 +1,6 @@
 <header>
 
-  <div class="container">
+  <div class="container nav-bar">
     <!-- logo -->
     <div class="logo">
       <img src="{{ Vite::asset('resources/img/dc-logo.png')}}" alt="dc logo" />

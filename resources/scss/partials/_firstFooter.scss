@@ -1,12 +1,20 @@
 @use "./mixins" as *;
 @use "./variables" as *;
 
-.container {
+.container.first-f {
     display: flex;
     gap: 50px;
     padding: 50px 0;
     color: #fff;
     @include container90;
+}
+
+.first-footer {
+    background-image: url(../img/dc-logo-bg.png), url(../img/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover;
+    background-position-x: 80%;
+    background-position-y: center;
 }
 
 .footer-list {

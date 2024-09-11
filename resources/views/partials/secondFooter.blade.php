@@ -1,6 +1,6 @@
 
-<div class="second-footer">
-    <div class="container">
+<div class=" second-footer">
+    <div class="container second-f">
         <div class="singup-btn">
           <a href="#">SING-UP NOW!</a>
         </div>

@@ -1,0 +1,63 @@
+@use "./mixins" as *;
+@use "./variables" as *;
+
+.hero-section {
+  background-image: url(../img/jumbotron.jpg);
+  background-size: cover;
+  min-height: 300px;
+  position: relative;
+}
+
+.current-series {
+  padding: 10px 20px;
+  background-color: $primary-blue-color;
+  color: #fff;
+  display: inline-block;
+  font-weight: bold;
+  position: absolute;
+  bottom: -20px;
+  left: 125px;
+}
+
+.container.home {
+  @include container90;
+  color: #fff;
+  padding: 50px 0;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.load-more-btn {
+  text-align: center;
+  margin-top: 80px;
+  a {
+    background-color: $primary-blue-color;
+    padding: 10px 15px;
+    display: inline-block;
+    font-weight: bold;
+    color: #fff;
+  }
+}
+
+.card {
+    width: calc(100% / 6 - 20px);
+    aspect-ratio: 1 / 1;
+  }
+  
+  .poster-img img {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: top;
+  }
+  
+  .series-title {
+    font-size: 14px;
+  }
+
+  .content-section {
+    background-color: rgb(28, 28, 28);
+}

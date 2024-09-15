@@ -22,22 +22,3 @@ a {
 
 // General section backgrounds
 
-.content-section {
-    background-color: rgb(28, 28, 28);
-}
-
-.icon-section {
-    background-color: $primary-blue-color;
-}
-
-.first-footer {
-    background-image: url(../img/dc-logo-bg.png), url(../img/footer-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: auto, cover;
-    background-position-x: 80%;
-    background-position-y: center;
-}
-
-.second-footer {
-    background-color: hsl(0deg 0% 18.82%);
-}

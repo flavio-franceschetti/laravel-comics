@@ -1,0 +1,33 @@
+@use "./mixins" as *;
+@use "./variables" as *;
+
+.container.icon {
+    @include container90;
+    padding: 50px 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.icon-element {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    img {
+        width: 40px;
+    }
+
+    span {
+        color: #fff;
+        text-transform: uppercase;
+    }
+}
+
+img[alt*="COMIC SHOP LOCATOR"] {
+    width: 30px;
+}
+
+.icon-section {
+    background-color: $primary-blue-color;
+}

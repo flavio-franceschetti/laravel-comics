@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ComicsController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,9 +15,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    
-    $comics = config('products');
-
-    return view('home', compact('comics'));
+    return view('home');
 })->name('home');
+
+
+Route::get('/comics', [ComicsController::class , 'index'])->name('comics');
+
 

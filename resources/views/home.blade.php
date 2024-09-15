@@ -6,22 +6,10 @@
 @section('content')
     <div class="content-section">
         <div class="hero-section">
-            <div class="current-series">CURRENT SERIES</div>
+            <div class="current-series">Home</div>
         </div>
         <div class="container home">
-            <div class="cards">
-                @foreach ($comics as $comic)
-                    <div class="card">
-                        <div class="poster-img">
-                            <img src="{{ $comic[0] }}" alt="Comic Thumb" />
-                        </div>
-                        <div class="series-title">{{ $comic[2] }}</div>
-                    </div>
-                @endforeach
-            </div>
-            <div class="load-more-btn">
-                <a href="#">LOAD MORE</a>
-            </div>
+
         </div>
     </div>
 @endsection
